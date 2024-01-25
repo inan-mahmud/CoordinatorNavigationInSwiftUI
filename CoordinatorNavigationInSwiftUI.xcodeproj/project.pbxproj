@@ -7,18 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3A61DDF42B5FB24A006EFB6A /* CoordinatorNavigationInSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A61DDF32B5FB24A006EFB6A /* CoordinatorNavigationInSwiftUIApp.swift */; };
 		3A61DDF62B5FB24A006EFB6A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A61DDF52B5FB24A006EFB6A /* ContentView.swift */; };
 		3A61DDF82B5FB278006EFB6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A61DDF72B5FB278006EFB6A /* Assets.xcassets */; };
 		3A61DDFB2B5FB278006EFB6A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A61DDFA2B5FB278006EFB6A /* Preview Assets.xcassets */; };
+		3A61DE022B5FC00D006EFB6A /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A61DE012B5FC00D006EFB6A /* Coordinator.swift */; };
+		3A61DE042B5FC062006EFB6A /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A61DE032B5FC062006EFB6A /* MainCoordinator.swift */; };
+		3A61DE062B5FC077006EFB6A /* NavigationContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A61DE052B5FC077006EFB6A /* NavigationContext.swift */; };
+		3A61DE082B5FC1B4006EFB6A /* AppNavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A61DE072B5FC1B4006EFB6A /* AppNavController.swift */; };
+		3A61DE0A2B5FC4E1006EFB6A /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A61DE092B5FC4E1006EFB6A /* DashboardView.swift */; };
+		3A61DE0C2B5FC541006EFB6A /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A61DE0B2B5FC541006EFB6A /* LoginView.swift */; };
+		3A61DE0E2B5FC6CD006EFB6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A61DE0D2B5FC6CD006EFB6A /* AppDelegate.swift */; };
+		3A61DE402B5FE625006EFB6A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A61DE3F2B5FE625006EFB6A /* SceneDelegate.swift */; };
+		3A61DE422B5FE821006EFB6A /* LoginState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A61DE412B5FE821006EFB6A /* LoginState.swift */; };
+		3A61DE442B613B95006EFB6A /* CoordinatorNavigationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A61DE432B613B95006EFB6A /* CoordinatorNavigationApp.swift */; };
+		3A61DE472B61415C006EFB6A /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A61DE462B61415C006EFB6A /* Router.swift */; };
+		3A61DE492B6141AF006EFB6A /* Routable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A61DE482B6141AF006EFB6A /* Routable.swift */; };
+		3A61DE4B2B614243006EFB6A /* RoutingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A61DE4A2B614243006EFB6A /* RoutingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3A61DDF02B5FB24A006EFB6A /* CoordinatorNavigationInSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoordinatorNavigationInSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3A61DDF32B5FB24A006EFB6A /* CoordinatorNavigationInSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorNavigationInSwiftUIApp.swift; sourceTree = "<group>"; };
 		3A61DDF52B5FB24A006EFB6A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3A61DDF72B5FB278006EFB6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A61DDFA2B5FB278006EFB6A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3A61DE012B5FC00D006EFB6A /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		3A61DE032B5FC062006EFB6A /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		3A61DE052B5FC077006EFB6A /* NavigationContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationContext.swift; sourceTree = "<group>"; };
+		3A61DE072B5FC1B4006EFB6A /* AppNavController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNavController.swift; sourceTree = "<group>"; };
+		3A61DE092B5FC4E1006EFB6A /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		3A61DE0B2B5FC541006EFB6A /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		3A61DE0D2B5FC6CD006EFB6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3A61DE3F2B5FE625006EFB6A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3A61DE412B5FE821006EFB6A /* LoginState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginState.swift; sourceTree = "<group>"; };
+		3A61DE432B613B95006EFB6A /* CoordinatorNavigationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorNavigationApp.swift; sourceTree = "<group>"; };
+		3A61DE462B61415C006EFB6A /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		3A61DE482B6141AF006EFB6A /* Routable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Routable.swift; sourceTree = "<group>"; };
+		3A61DE4A2B614243006EFB6A /* RoutingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +59,7 @@
 		3A61DDE72B5FB24A006EFB6A = {
 			isa = PBXGroup;
 			children = (
+				3A61DE452B61413B006EFB6A /* Route */,
 				3A61DDF22B5FB24A006EFB6A /* CoordinatorNavigationInSwiftUI */,
 				3A61DDF12B5FB24A006EFB6A /* Products */,
 			);
@@ -51,10 +76,19 @@
 		3A61DDF22B5FB24A006EFB6A /* CoordinatorNavigationInSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				3A61DDF32B5FB24A006EFB6A /* CoordinatorNavigationInSwiftUIApp.swift */,
 				3A61DDF52B5FB24A006EFB6A /* ContentView.swift */,
 				3A61DDF72B5FB278006EFB6A /* Assets.xcassets */,
 				3A61DDF92B5FB278006EFB6A /* Preview Content */,
+				3A61DE012B5FC00D006EFB6A /* Coordinator.swift */,
+				3A61DE032B5FC062006EFB6A /* MainCoordinator.swift */,
+				3A61DE052B5FC077006EFB6A /* NavigationContext.swift */,
+				3A61DE072B5FC1B4006EFB6A /* AppNavController.swift */,
+				3A61DE092B5FC4E1006EFB6A /* DashboardView.swift */,
+				3A61DE0B2B5FC541006EFB6A /* LoginView.swift */,
+				3A61DE0D2B5FC6CD006EFB6A /* AppDelegate.swift */,
+				3A61DE3F2B5FE625006EFB6A /* SceneDelegate.swift */,
+				3A61DE412B5FE821006EFB6A /* LoginState.swift */,
+				3A61DE432B613B95006EFB6A /* CoordinatorNavigationApp.swift */,
 			);
 			path = CoordinatorNavigationInSwiftUI;
 			sourceTree = "<group>";
@@ -65,6 +99,16 @@
 				3A61DDFA2B5FB278006EFB6A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3A61DE452B61413B006EFB6A /* Route */ = {
+			isa = PBXGroup;
+			children = (
+				3A61DE462B61415C006EFB6A /* Router.swift */,
+				3A61DE482B6141AF006EFB6A /* Routable.swift */,
+				3A61DE4A2B614243006EFB6A /* RoutingView.swift */,
+			);
+			path = Route;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +182,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A61DDF62B5FB24A006EFB6A /* ContentView.swift in Sources */,
-				3A61DDF42B5FB24A006EFB6A /* CoordinatorNavigationInSwiftUIApp.swift in Sources */,
+				3A61DE4B2B614243006EFB6A /* RoutingView.swift in Sources */,
+				3A61DE062B5FC077006EFB6A /* NavigationContext.swift in Sources */,
+				3A61DE492B6141AF006EFB6A /* Routable.swift in Sources */,
+				3A61DE042B5FC062006EFB6A /* MainCoordinator.swift in Sources */,
+				3A61DE0E2B5FC6CD006EFB6A /* AppDelegate.swift in Sources */,
+				3A61DE472B61415C006EFB6A /* Router.swift in Sources */,
+				3A61DE0A2B5FC4E1006EFB6A /* DashboardView.swift in Sources */,
+				3A61DE422B5FE821006EFB6A /* LoginState.swift in Sources */,
+				3A61DE402B5FE625006EFB6A /* SceneDelegate.swift in Sources */,
+				3A61DE442B613B95006EFB6A /* CoordinatorNavigationApp.swift in Sources */,
+				3A61DE022B5FC00D006EFB6A /* Coordinator.swift in Sources */,
+				3A61DE0C2B5FC541006EFB6A /* LoginView.swift in Sources */,
+				3A61DE082B5FC1B4006EFB6A /* AppNavController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
